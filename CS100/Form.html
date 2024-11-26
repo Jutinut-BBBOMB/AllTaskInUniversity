@@ -1,0 +1,70 @@
+<!---66096502288--->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form HTML </title>
+</head>
+
+<body>
+    <h1>HTML FORMS</h1>
+
+    <form>
+        <!--Name-->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" placeholder="First Name">
+            <label for="surname"> Surname:</label>
+            <input type="text" id="surname" name="surname" value="" placeholder=Surname><br><br>
+        </div>
+        <div>
+            <label for="thname">ชื่อ:</label>
+            <input type="text" id="thname" name="thname" value="" placeholder="ชื่อ">
+            <label for="thsurname"> นามสกุล:</label>
+            <input type="text" id="thsurname" name="thsurname" value="" placeholder="นามสกุล"><br><br>
+        </div>
+        <!--StudentsID-->
+        <div>
+            <label for="id">Student Number</label>
+            <input type="text" name="id" id="id" required placeholder="ID">
+
+        </div>
+        <!--Faculty of-->
+        <div>
+        <label for="fac">Faculty of</label>
+            <input type="text" name="fac" id="fac" required placeholder="Fac">
+
+        </div>
+        <!--Gender-->
+        <div>
+            <label for="gender">Gender</label>
+            <select>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <!--Email-->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="email">
+        </div>
+        <!--Birthday-->
+        <div>
+            <label for="birth">Birthday</label>
+            <input type="date" name="birth" id="birth">
+        </div>
+        <!--Comments-->
+        <div>
+            <label for="co">Comments:</label><br>
+            <textarea rows="2" name="co" id="co" required placeholder="Comments"></textarea>
+        </div>
+        <!--End-->
+        <button type="reset">reset</button>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
