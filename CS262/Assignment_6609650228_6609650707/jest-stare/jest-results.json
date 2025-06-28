@@ -1,0 +1,149 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 4,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 5,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1741118954707,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1741118955083,
+        "runtime": 307,
+        "slow": false,
+        "start": 1741118954776
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\test\\average.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "average function"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function should return correct average when all values are in range",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return correct average when all values are in range"
+        },
+        {
+          "ancestorTitles": [
+            "average function"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function should ignore values out of range",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should ignore values out of range"
+        },
+        {
+          "ancestorTitles": [
+            "average function"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function should return -999 when no valid values",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return -999 when no valid values"
+        },
+        {
+          "ancestorTitles": [
+            "average function"
+          ],
+          "duration": 2,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 0,
+                "expected": -999,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m-999\u001b[39m\nReceived: \u001b[31m0\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m-999\u001b[39m\nReceived: \u001b[31m0\u001b[39m\n    at Object.toBe (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\test\\average.test.js:25:32)\n    at Promise.then.completed (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at _runTest (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\user\\Desktop\\Assignment_6609650228_6609650707\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ],
+          "fullName": "average function should return -999 when input is not an array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should return -999 when input is not an array"
+        },
+        {
+          "ancestorTitles": [
+            "average function"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "average function should return -999 when input is an empty array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return -999 when input is an empty array"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1maverage function › should return -999 when input is not an array\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m-999\u001b[39m\n    Received: \u001b[31m0\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 23 |\u001b[39m     test(\u001b[32m'should return -999 when input is not an array'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m     \u001b[90m 24 |\u001b[39m         \u001b[36mlet\u001b[39m result \u001b[33m=\u001b[39m avrg(\u001b[32m\"string\"\u001b[39m\u001b[33m,\u001b[39m \u001b[35m5\u001b[39m\u001b[33m,\u001b[39m \u001b[35m50\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 25 |\u001b[39m         expect(result\u001b[33m.\u001b[39maverage)\u001b[33m.\u001b[39mtoBe(\u001b[33m-\u001b[39m\u001b[35m999\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 26 |\u001b[39m         expect(result\u001b[33m.\u001b[39mtotal\u001b[33m.\u001b[39mvalid)\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 27 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 28 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/average.test.js\u001b[39m\u001b[0m\u001b[2m:25:32)\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}

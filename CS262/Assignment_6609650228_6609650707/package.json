@@ -1,0 +1,32 @@
+{
+  "name": "jest-test-project",
+  "version": "1.0.0",
+  "description": "A Node.js project with automated tests using Jest",
+  "main": "src/average.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-stare": "^1.27.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "verbose": true,
+    "reporters": [
+      "default",
+      [
+        "jest-stare",
+        {
+          "resultDir": "jest-stare",
+          "reportTitle": "Detailed Jest Test Report"
+        }
+      ]
+    ]
+  }
+}
